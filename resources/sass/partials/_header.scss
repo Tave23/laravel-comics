@@ -27,23 +27,23 @@ header{
    line-height: 100px;
 }
 
-li{
+.menu-header li{
    list-style: none;
    padding: 10px;
    border-bottom: 3px solid white;
 }
 
-li a{
+.menu-header li a{
    font-size: 13px;
 }
 
-li:hover,
-li:active{
+.menu-header li:hover,
+.menu-header li:active{
    border-bottom: 3px solid #0C7BEB;
    border-color: $primary-color;
 }
 
-li:hover a,
-li:active a{
+.menu-header li:hover a,
+.menu-header li:active a{
    color: $primary-color;
 }

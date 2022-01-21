@@ -1,0 +1,34 @@
+.lowJumbo{
+   height: 120px;
+   width: 100%;
+   background: #0C7BEB;
+   padding: 40px;
+}
+
+.lowJumbo ul{
+   display: flex;
+   justify-content: center;
+   align-self: center;
+   line-height: 40px;
+}
+
+.lowJumbo ul li{
+   padding: 0 20px;
+   list-style: none;
+   display: flex;
+   align-self: center;
+}
+
+.lowJumbo li img{
+   width: 35px;
+   margin-right: 10px;
+   cursor: pointer;
+}
+
+#shop img{
+   width: 30px;
+}
+
+.lowJumbo a{
+   color: white;
+}

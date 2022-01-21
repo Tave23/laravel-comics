@@ -58,24 +58,24 @@ header {
   line-height: 100px;
 }
 
-li {
+.menu-header li {
   list-style: none;
   padding: 10px;
   border-bottom: 3px solid white;
 }
 
-li a {
+.menu-header li a {
   font-size: 13px;
 }
 
-li:hover,
-li:active {
+.menu-header li:hover,
+.menu-header li:active {
   border-bottom: 3px solid #0C7BEB;
   border-color: #0C7BEB;
 }
 
-li:hover a,
-li:active a {
+.menu-header li:hover a,
+.menu-header li:active a {
   color: #0C7BEB;
 }
 
@@ -140,5 +140,40 @@ button {
 
 h3 {
   text-transform: uppercase;
+}
+
+.lowJumbo {
+  height: 120px;
+  width: 100%;
+  background: #0C7BEB;
+  padding: 40px;
+}
+
+.lowJumbo ul {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  line-height: 40px;
+}
+
+.lowJumbo ul li {
+  padding: 0 20px;
+  list-style: none;
+  display: flex;
+  align-self: center;
+}
+
+.lowJumbo li img {
+  width: 35px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+#shop img {
+  width: 30px;
+}
+
+.lowJumbo a {
+  color: white;
 }
 

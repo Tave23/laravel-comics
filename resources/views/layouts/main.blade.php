@@ -16,8 +16,7 @@
 
    @include('partials.mainpart')
 
-
-
+   @include('partials.lowJumbo')
 
    @include('partials.footer')
 
