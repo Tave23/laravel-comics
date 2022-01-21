@@ -1,1 +1,7 @@
-//
+// qui richiamo tutti i file all'interno di sass/partials
+
+@import 'partials/vars';
+@import 'partials/utilities';
+@import 'partials/generals';
+@import 'partials/header';
+
