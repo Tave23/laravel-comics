@@ -1,0 +1,49 @@
+header{
+   height: 80px;
+   width: 100vw;
+   background-color: white;
+   margin-bottom: 43px;
+}
+
+.wrapper.header{
+   line-height: 80px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.logo-header{
+   width: 200px;
+}
+
+.logo-header img{
+   width: 120px;
+   height: 80%;
+   padding: 25px;
+   cursor: pointer;
+}
+
+.menu-header ul{
+   display: flex;
+   line-height: 100px;
+}
+
+li{
+   list-style: none;
+   padding: 10px;
+   border-bottom: 3px solid white;
+}
+
+li a{
+   font-size: 13px;
+}
+
+li:hover,
+li:active{
+   border-bottom: 3px solid #0C7BEB;
+   border-color: $primary-color;
+}
+
+li:hover a,
+li:active a{
+   color: $primary-color;
+}
