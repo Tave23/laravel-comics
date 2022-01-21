@@ -2,8 +2,8 @@
 return [
 
    [
-      'title' => 'carachters',
-      'route' => 'carachters'
+      'title' => 'characters',
+      'route' => 'characters'
    ],
    [
       'title' => 'comics',

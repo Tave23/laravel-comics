@@ -17,12 +17,14 @@ Route::get('/', function () {
 
     $data = config('links');
 
-    return view('home', ['links' => $data]);
+    $data2 = config('comics');
+
+    return view('home', ['links' => $data], ['comics' => $data2]);
 })->name('home');
 
-Route::get('/carachters', function () {
-    return view('carachters');
-})->name('carachters');
+Route::get('/characters', function () {
+    return view('characters');
+})->name('characters');
 
 Route::get('/comics', function () {
     return view('comics');
