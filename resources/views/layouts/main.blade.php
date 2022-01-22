@@ -18,6 +18,8 @@
 
    @include('partials.lowJumbo')
 
+   @include('partials.linkUtili')
+
    @include('partials.footer')
 
 </body>

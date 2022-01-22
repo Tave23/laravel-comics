@@ -1,0 +1,48 @@
+.bg-link{
+   width: 100vw;
+   height: 365px;
+   background-image: url("../../../public/images/footer-bg.jpg");
+   background-size: cover;                     
+   background-repeat: no-repeat;
+   background-position: center center; 
+   padding: 20px 0;
+}
+
+.wrapper.linkUtili{
+   display: flex;
+}
+
+.linkUtili h3{
+   color: white;
+   margin: 20px 0;
+   text-transform: uppercase;
+}
+
+.linkUtili li a{
+   color: gray;
+   text-transform: capitalize;
+}
+
+.linkUtili li a:hover{
+   color: white;
+}
+
+.first-column,
+.second-column,
+.third-column{
+   margin-right: 35px;
+   width: 15%;
+}
+
+.logo-dc{
+   width: 50%;
+   margin-left: 100px;
+   position: relative;
+}
+
+.logo-dc img{
+   width: 100%;
+   position: absolute;
+   top: -50px;
+   z-index: 997;
+}
