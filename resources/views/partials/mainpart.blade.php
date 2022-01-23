@@ -13,12 +13,12 @@
          <!-- ciclo foreach per i fumetti -->
          @foreach (config('comics') as $comic)
 
-            <div class="imgBox">
+            <a class="imgBox">
             
                <img src="{{ $comic["thumb"] }}" alt="">
                <p>{{ $comic["title"] }}</p>
    
-            </div>
+            </a>
 
          @endforeach
 

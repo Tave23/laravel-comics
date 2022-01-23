@@ -98,9 +98,10 @@ main h1 {
   color: white;
 }
 
-p {
+main p {
   color: white;
   font-size: 15px;
+  text-transform: capitalize;
 }
 
 .img-container {
@@ -120,7 +121,7 @@ main .wrapper {
   position: relative;
 }
 
-button {
+main button {
   position: absolute;
   background-color: #0C7BEB;
   border: none;
@@ -138,7 +139,7 @@ button {
   left: 45%;
 }
 
-h3 {
+main h3 {
   text-transform: uppercase;
 }
 
